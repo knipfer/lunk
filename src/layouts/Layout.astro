@@ -7,7 +7,7 @@ const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-black">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -19,3 +19,15 @@ const { title } = Astro.props;
 		<slot />
 	</body>
 </html>
+
+<style>
+	html {
+		overflow: hidden;
+		height: 100%;
+	}
+
+	body {
+		height: 100%;
+		overflow: auto;
+	}
+</style>
