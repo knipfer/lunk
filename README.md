@@ -1,4 +1,4 @@
-# Lunk
+# Lunks
 
 This is a simple and sexy links landing page built with Astro, Tailwind, and HeroIcons.
 
